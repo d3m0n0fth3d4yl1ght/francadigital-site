@@ -1,8 +1,8 @@
 :root {
-  --cor-primaria: #63acffff;
-  --cor-fundo: #0f172a;
-  --cor-card: rgba(15, 23, 42, 0.72);
-  --cor-texto: #e2e8f0;
+  --cor-primaria: rgb(223, 31, 25);
+  --cor-fundo: #500909e0;
+  --cor-card: rgba(19, 18, 22, 0.72);
+  --cor-texto: #c9c4c4c9;
 }
 
 * {
@@ -43,8 +43,8 @@ body {
   border-radius: 50%;
   background: linear-gradient(
     135deg,
-    rgba(140, 134, 255, 0.55),
-    rgba(0, 140, 255, 0.4)
+    rgb(136, 46, 39),
+    #6e0fdbcc
   );
   animation: flutuar 9s ease-in-out infinite;
   opacity: 0.6;

@@ -12,8 +12,28 @@
        <span class="orb orb-2"></span>
        <span class="orb orb-3"></span>
     </div>
-
-
+    <main class="page">
+        <section class="grid">
+            <article class="card">
+                <h2> 1- Alterar Cor do Site</h2>
+                <p>Escolha uma cor</p>
+                <input type="color" id="seletorCor" value="#000">
+                <button id="btnAplicarCor">Aplicar cor</button>
+            </article>
+            <article class="card">
+                <h2>2- Galeria Dinâmica</h2>
+                <p>Clique para alterar a imagem</p>
+                <div class="chips">
+                    <button class="chip" data-image="https://images.unsplash.com/photo-1762862064886-72a3dcc25230?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">Lua Laranja</button>
+                    <button class="chip" data-image="https://images.unsplash.com/photo-1762710940358-e3351cc9ff34?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">Lua Cheia</button>
+                    <button class="chip" data-image="https://images.unsplash.com/photo-1762661122540-10645eafc95c?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">Ponte Suspensa</button>
+                </div>
+                <div class="galeria" id="galeriaHero"></div>
+            </article>
+        </section>
+    </main>
+    
+    
     <script src="script.js"></script>
 </body>
 </html>
